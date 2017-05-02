@@ -1,0 +1,11 @@
+{
+    "products": {
+        "id": 1,
+        "name": "macbook",
+        "price": 716,
+        "quality": "high",
+        "color": "blue",
+        "image": "http://dummyimage.com/217x195.png/ff4444/ffffff",
+        "review": "This product is awesome"
+    }
+}

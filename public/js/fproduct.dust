@@ -1,0 +1,14 @@
+<div>
+<ol>
+
+{#products}
+<h3> {name} </h3>
+<h4> {price} </h4>
+<h5> {quality} </h5>
+<h5> {color} </h5>
+<img src="{image}" height="225" width="325" />
+{/products}
+<h5> {rating} </h5>
+
+</ol>
+</div>

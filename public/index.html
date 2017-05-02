@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Amazon</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dustjs-linkedin/2.7.5/dust-core.min.js"></script>
+    <script src="js/deals.js"></script>
+    <script src="js/fproduct.js"></script>
+</head>
+
+<body>
+    <div id="menuheader">
+        <img src="http://www.wyattresearch.com/wp-content/uploads/2014/12/amazon-prime-logo-1.jpg" width="200px" height="150px">
+    </div>
+    <div>
+        <select>
+            <option>Departments</option>
+            <option>Amazon video</option>
+            <option>Amazon music</option>
+            <option>App store for Android</option>
+            <option>Prime photos and prints</option>
+        </select>
+        <select>
+            <option>Browsing history</option>
+        </select>
+        <a href="#" onclick="loadPage('datafile');"> Deals </a>
+    </div>
+    <br>
+    <div id="imagecontainer">
+        <img src="images/d.jpg">
+    </div>
+    <div id="mainContent"></div>
+    <script>
+    function loadPage(url) {
+
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var textData = xhr.responseText;
+                console.log(textData);
+                //alert(textData);
+                if (url == "datafile") {
+                    // textData = prepareMenuHtml(textData);
+                    var jsonObj = JSON.parse(textData);
+                    dust.render('deals', jsonObj, function(err, out) {
+                        console.log(err);
+                        console.log(out);
+                        document.getElementById('mainContent').innerHTML = out;
+                    });
+                } else if (url.startsWith("fproduct?id=")) {
+                    var jsonObj = JSON.parse(textData);
+                    console.log(textData);
+                    dust.render('fproduct', jsonObj, function(err, out) {
+                        console.log(err);
+                        console.log(out);
+                        document.getElementById('mainContent').innerHTML = jsonObj;
+                    });
+                } else {
+                    document.getElementById("mainContent").innerHTML = textData;
+                }
+
+            }
+        }
+        xhr.open("GET", url, true);
+        xhr.send();
+    }
+    </script>
+</body>
+
+</html>

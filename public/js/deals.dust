@@ -1,0 +1,13 @@
+<div id="dustfile" >
+<h4> Welcome, find today's top deals </h4>
+
+<ol>
+
+{#products}
+<h1> {name} </h1>
+<h3> {price} </h3>
+<a href = "#" onclick = "loadPage('/fproduct?id={id}')"><img src="{image}" height="225" width="325" /></a>
+{/products}
+
+</ol>
+</div>

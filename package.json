@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-basics",
+  "version": "4.1.2",
+  "description": "node practice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "practice",
+    "basice"
+  ],
+  "author": "sharath jeksani",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.18.7",
+    "express": "^4.14.1",
+    "gulp": "^3.9.1",
+    "gulp-dust": "^3.0.0"
+  }
+}

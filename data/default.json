@@ -1,0 +1,34 @@
+{
+    "products": [{
+        "id": 1,
+        "name": "macbook",
+        "price": 716,
+        "image": "http://dummyimage.com/217x195.png/ff4444/ffffff"
+    }, {
+        "id": 2,
+        "name": "macbook",
+        "price": 824,
+        "image": "http://dummyimage.com/164x193.png/ff4444/ffffff"
+    }, {
+        "id": 3,
+        "name": "motorcycle",
+        "price": 757,
+        "image": "http://dummyimage.com/114x169.jpg/cc0000/ffffff"
+    }, {
+        "id": 4,
+        "name": "car",
+        "price": 511,
+        "image": "http://dummyimage.com/240x138.jpg/dddddd/000000"
+    }, {
+        "id": 5,
+        "name": "macbook",
+        "price": 247,
+        "image": "http://dummyimage.com/213x130.bmp/dddddd/000000"
+    }, {
+        "id": 6,
+        "name": "bicycle",
+        "price": 200,
+        "image": "http://dummyimage.com/156x167.jpg/dddddd/000000"
+    }]
+
+}
