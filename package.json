@@ -16,7 +16,7 @@
     "browser-sync": "^2.18.7",
     "express": "^4.14.1",
     "gulp": "^3.9.1",
-    "gulp-dust": "^3.0.0"
+    "gulp-dust": "^3.0.0",
     "watch": "^2.0.0"
   }
 }
