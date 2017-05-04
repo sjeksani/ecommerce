@@ -2,33 +2,33 @@
     "products": [{
         "id": 1,
         "name": "macbook",
-        "price": 716,
-        "image": "http://dummyimage.com/217x195.png/ff4444/ffffff"
+        "price": "$ 716",
+        "image": "https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/m/ac/macbook/air/macbook-air-gallery2-2014?wid=1292&hei=766&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1476297407703"
     }, {
         "id": 2,
         "name": "macbook",
-        "price": 824,
-        "image": "http://dummyimage.com/164x193.png/ff4444/ffffff"
+        "price": "$ 824",
+        "image": "http://www.laptopmag.com/images/uploads/ppress/45122/apple-macbook-2016-w-g04.jpg"
     }, {
         "id": 3,
         "name": "motorcycle",
-        "price": 757,
-        "image": "http://dummyimage.com/114x169.jpg/cc0000/ffffff"
+        "price": "$ 757",
+        "image": "http://www.americanmotorcyclist.com/Portals/3/EasyDNNNews/239/740600c3616EDNthumb239Raffle-Bike-2017_Quarter-View_Isolated_web.jpg"
     }, {
         "id": 4,
         "name": "car",
-        "price": 511,
-        "image": "http://dummyimage.com/240x138.jpg/dddddd/000000"
+        "price": "$ 511",
+        "image": "http://i2.cdn.cnn.com/cnnnext/dam/assets/160120103725-toyota-ft-1-concept-exterior-super-169.jpg"
     }, {
         "id": 5,
         "name": "macbook",
-        "price": 247,
-        "image": "http://dummyimage.com/213x130.bmp/dddddd/000000"
+        "price": "$ 247",
+        "image": "https://www.twelvesouth.com/uploads/images/gallery/HR_MacBook_Gallery_4.jpg"
     }, {
         "id": 6,
         "name": "bicycle",
-        "price": 200,
-        "image": "http://dummyimage.com/156x167.jpg/dddddd/000000"
+        "price": "$ 200",
+        "image": "https://s-media-cache-ak0.pinimg.com/736x/fe/24/de/fe24decebbc36e213abf3ca834059368.jpg"
     }]
 
 }
